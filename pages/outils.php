@@ -7,7 +7,7 @@
 			<figure>
 				<img src="../images/sublimeTextLogo.ico" class="img-rounded" style="width:150px; height:150px;"/>
 				<figcaption>
-					Sublime Text : Environnement de développement PHP
+					<b>Sublime Text :</b> Environnement de développement PHP
 				</figcaption>
 			</figure>
 		</div>
@@ -15,7 +15,7 @@
 			<figure>
 				<img src="../images/visual-studio-2015-logo.png" class="img-rounded" style="width:190px; height:150px;"/>
 				<figcaption>
-					Visual Studio 2015 : Environnement de développement ASP .NET
+					<b>Visual Studio 2015 :</b> Environnement de développement .NET
 				</figcaption>
 			</figure>
 		</div>
@@ -23,7 +23,7 @@
 			<figure>
 				<img src="../images/Git-Logo.png" class="img-rounded" style="width:200px; height:150px;"/>
 				<figcaption>
-					Git : Outil de gestion du versionning
+					<b>Git :</b> Outil de gestion du versionning
 				</figcaption>
 			</figure>
 		</div>
@@ -34,7 +34,7 @@
 			<figure>
 				<img src="../images/SourceTreeIcon.png" class="img-rounded" style="width:150px; height:150px;"/>
 				<figcaption>
-					Source Tree : client Git
+					<b>Source Tree :</b> client Git
 				</figcaption>
 			</figure>
 		</div>
@@ -42,7 +42,7 @@
 			<figure>
 				<img src="../images/PSlogo.png" class="img-rounded" style="width:190px; height:150px;"/>
 				<figcaption>
-					Photoshop : traitement d'image
+					<b>Photoshop :</b> traitement d'image
 				</figcaption>
 			</figure>
 		</div>

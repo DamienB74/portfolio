@@ -55,6 +55,19 @@ li > a:hover {
 h1{     /* pour les titres de la page "aboutme" */
     font-family: 'Bookman Old Style', serif;
 }
+h5 {
+    margin-left: 11%;
+}
+@media screen and (max-width: 740px) {
+    h5 {
+        margin-left: 8%;
+    }
+}
+@media screen and (max-width: 400px) {
+    h5 {
+        margin-left: 5%;
+    }
+}
 .contenu{
 	margin-top: 19vh;
 }
