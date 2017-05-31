@@ -52,6 +52,9 @@ li > a:hover {
 
 
 /* Général */
+h1{     /* pour les titres de la page "aboutme" */
+    font-family: 'Bookman Old Style', serif;
+}
 .contenu{
 	margin-top: 19vh;
 }
@@ -59,21 +62,11 @@ li > a:hover {
 	margin-top: 11vh;
 }
 .well {
-	border: 6px solid #e3e3e3;
-	border-radius: 16px;
+	border: 5px solid #FFF;
+	border-radius: 12px;
 }
 .well_etudes {
 	padding: 10px 19px;
-	border-color: #d9534f;
-}
-.well_parcours {
-	border-color: #6E3BEF;
-}
-.well_competences {
-	border-color: #207E20;
-}
-.well_outils {
-	border-color: #562308;
 }
 .contenuParcours, .contenuCompetences, .contenuEtudes, .contenuOutils {
 	margin-top: -10px;
@@ -115,64 +108,22 @@ li > a:hover {
 	padding: 5px;
 	margin-bottom: 5px;
 }
-.navkeyblue:hover {
-	border-bottom: 3px solid #6E3BEF;
+.navkey:hover {
+    border-bottom: 3px solid #FFF;
 }
-.navactiveblue {
-	border-bottom: 3px solid #6E3BEF;
-	font-weight: bold;
-}
-.navkeyred:hover {
-	border-bottom: 3px solid #d9534f;
-}
-.navactivered {
-	border-bottom: 3px solid #d9534f;
-	font-weight: bold;
-}
-.navkeygreen:hover {
-	border-bottom: 3px solid #207E20;
-}
-.navactivegreen {
-	border-bottom: 3px solid #207E20;
-	font-weight: bold;
-}
-.navkeybrown:hover {
-	border-bottom: 3px solid #562308;
-}
-.navactivebrown {
-	border-bottom: 3px solid #562308;
-	font-weight: bold;
+.navactive {
+    color: #FFF;
+    border-bottom: 3px solid #FFF;
+    font-weight: bold;
 }
 .navlink {
 	font-size: 17px;
+    color: #383838;
 }
 .navLink:hover {
 	font-weight: bold;
 	text-decoration: none;
-}
-.navlinkblue {
-	color: #6E3BEF;
-}
-.navlinkblue:hover {
-	color: #6E3BEF;
-}
-.navlinkred {
-	color: #d9534f;
-}
-.navlinkred:hover {
-	color: #d9534f;
-}
-.navlinkgreen {
-	color: #207E20;
-}
-.navlinkgreen:hover {
-	color: #207E20;
-}
-.navlinkbrown {
-	color: #562308;
-}
-.navlinkbrown:hover {
-	color: #562308;
+    color: #FFF;
 }
 
 
@@ -364,8 +315,6 @@ li > a:hover {
 
 /* figure page outils */
 figure {
-/*   float: right;
-width: 30%; */
   text-align: center;
   font-style: italic;
   font-size: smaller;

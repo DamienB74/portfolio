@@ -1,6 +1,6 @@
 <!-- Contenu de la Div etudes pour la page "aboutme" -->
 <div class="contenuEtudes">
-  <h1 style="text-align: center; color:#d9534f">Mes études</h1>
+  <h1 style="text-align: center; ">Mes études</h1>
     <ul class="timeline">
         <li>
           <div class="timeline-badge">Sept. 2016</div>

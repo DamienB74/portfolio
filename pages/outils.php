@@ -1,7 +1,7 @@
 <!-- Contenu de la Div compétences pour la page "aboutme" -->
 
 <div id="contenuCompetences"> <!-- encadré -->
-	<h1 style="text-align: center; color:#562308">Mes outils</h1>
+	<h1 style="text-align: center; ">Mes outils</h1>
 	<div class="row">
 		<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
 			<figure>

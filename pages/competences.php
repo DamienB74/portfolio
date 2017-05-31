@@ -1,6 +1,6 @@
 <!-- Contenu de la Div compétences pour la page "aboutme" -->
 <div id="contenuCompetences"> <!-- encadré -->
-	<h1 style="text-align: center; color:#207E20">Mes compétences</h1>
+	<h1 style="text-align: center; ">Mes compétences</h1>
 	<div class="row">
 		<div class="pie col-lg-3 col-md-3 col-sm-6 col-xs-6">				
 			<span class="min-chart" id="chart-php" data-percent="50"><span class="percent"></span></span>

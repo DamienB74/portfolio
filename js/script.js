@@ -13,56 +13,38 @@ $(document).ready(function(){
 	  // Load target page into container
 	  container.load(target + '.php');
 
-	  //pour charger une classe spécifique au well actuel, pour la couleur
-	  if(target == "parcours"){
-	  	document.getElementById("randomDiv").classList.add('well_parcours');
-	  }
-	  else {
-	  	document.getElementById("randomDiv").classList.remove('well_parcours');
-	  }
-  	  if(target == "competences"){
-	  	document.getElementById("randomDiv").classList.add('well_competences');
-	  }
-	  else {
-	  	document.getElementById("randomDiv").classList.remove('well_competences');
-	  }
+	  //pour charger la taille de la div "well" de etudes
   	  if(target == "etudes"){
 	  	document.getElementById("randomDiv").classList.add('well_etudes');
 	  }
 	  else {
 	  	document.getElementById("randomDiv").classList.remove('well_etudes');
 	  }
-  	  if(target == "outils"){
-	  	document.getElementById("randomDiv").classList.add('well_outils');
-	  }
-	  else {
-	  	document.getElementById("randomDiv").classList.remove('well_outils');
-	  }
 	  
 	  //pour montrer quel est le menu actif
   	  if(target == "parcours"){
-	  	document.getElementById("navkeyblue").classList.add('navactiveblue');
-	  	document.getElementById("navkeyred").classList.remove('navactivered');
-	  	document.getElementById("navkeygreen").classList.remove('navactivegreen');
-	  	document.getElementById("navkeybrown").classList.remove('navactivebrown');
+	  	document.getElementById("navkeyparcours").classList.add('navactive');
+	  	document.getElementById("navkeyetudes").classList.remove('navactive');
+	  	document.getElementById("navkeycompetences").classList.remove('navactive');
+	  	document.getElementById("navkeyoutils").classList.remove('navactive');
 	  }
 	  else if(target == "competences")  {
-	  	document.getElementById("navkeygreen").classList.add('navactivegreen');
-	  	document.getElementById("navkeyred").classList.remove('navactivered');
-	  	document.getElementById("navkeybrown").classList.remove('navactivebrown');
-	  	document.getElementById("navkeyblue").classList.remove('navactiveblue');
+	  	document.getElementById("navkeycompetences").classList.add('navactive');
+	  	document.getElementById("navkeyetudes").classList.remove('navactive');
+	  	document.getElementById("navkeyoutils").classList.remove('navactive');
+	  	document.getElementById("navkeyparcours").classList.remove('navactive');
 	  }
   	  else if(target == "etudes"){
-	  	document.getElementById("navkeyred").classList.add('navactivered');
-	  	document.getElementById("navkeygreen").classList.remove('navactivegreen');
-	  	document.getElementById("navkeybrown").classList.remove('navactivebrown');
-	  	document.getElementById("navkeyblue").classList.remove('navactiveblue');
+	  	document.getElementById("navkeyetudes").classList.add('navactive');
+	  	document.getElementById("navkeycompetences").classList.remove('navactive');
+	  	document.getElementById("navkeyoutils").classList.remove('navactive');
+	  	document.getElementById("navkeyparcours").classList.remove('navactive');
 	  }
 	  else {
-	  	document.getElementById("navkeybrown").classList.add('navactivebrown');
-	  	document.getElementById("navkeyred").classList.remove('navactivered');
-	  	document.getElementById("navkeygreen").classList.remove('navactivegreen');
-	  	document.getElementById("navkeyblue").classList.remove('navactiveblue');
+	  	document.getElementById("navkeyoutils").classList.add('navactive');
+	  	document.getElementById("navkeyetudes").classList.remove('navactive');
+	  	document.getElementById("navkeycompetences").classList.remove('navactive');
+	  	document.getElementById("navkeyparcours").classList.remove('navactive');
 	  }
 
 	  // Stop normal link behavior

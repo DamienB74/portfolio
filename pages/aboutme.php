@@ -63,33 +63,33 @@
 			      	<div class="contenuAbout">
 				  		<div class="row">
 				  			<nav id="nav">				  			
-				  				<a href="#" class="navlink navlinkblue" data-target="parcours">
-					  				<div class="navkey navkeyblue col-lg-3 col-md-3 col-sm-3 col-xs-12 navactiveblue" id="navkeyblue">
+				  				<a href="#" class="navlink " data-target="parcours">
+					  				<div class="navkey col-lg-3 col-md-3 col-sm-3 col-xs-12 navactive" id="navkeyparcours">
 					  					Ma présentation
 					  				</div>
 				  				</a>
 					  			
-								<a href="#" class="navlink navlinkred" data-target="etudes">
-									<div class="navkey navkeyred col-lg-3 col-md-3 col-sm-3 col-xs-12" id="navkeyred">
+								<a href="#" class="navlink " data-target="etudes">
+									<div class="navkey col-lg-3 col-md-3 col-sm-3 col-xs-12" id="navkeyetudes">
 						  				Mes études
 						  			</div>	
 								</a>
 
-								<a href="#" class="navlink navlinkgreen" data-target="competences">
-						  			<div class="navkey navkeygreen col-lg-3 col-md-3 col-sm-3 col-xs-12" id="navkeygreen">
+								<a href="#" class="navlink " data-target="competences">
+						  			<div class="navkey col-lg-3 col-md-3 col-sm-3 col-xs-12" id="navkeycompetences">
 						  				Mes compétences
 						  			</div>
 								</a>
 
-								<a href="#" class="navlink navlinkbrown" data-target="outils">
-						  			<div class="navkey navkeybrown col-lg-3 col-md-3 col-sm-3 col-xs-12" id="navkeybrown">
+								<a href="#" class="navlink " data-target="outils">
+						  			<div class="navkey col-lg-3 col-md-3 col-sm-3 col-xs-12" id="navkeyoutils">
 						  				Mes outils
 						  			</div>	
 					  			</a>				  										  		
 				  			</nav>
 						</div>
 						
-						<div class="well well_parcours" id="randomDiv"> <!-- well pour l'encadré -->
+						<div class="well" id="randomDiv"> <!-- well pour l'encadré -->
 							<?php include('parcours.php'); ?>
 						</div>
 						
