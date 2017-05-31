@@ -15,7 +15,7 @@
           </div>
         </li>
         <li class="timeline-inverted">
-          <div class="timeline-badge warning">Juin 2015</div>
+          <div class="timeline-badge">Juin 2015</div>
           <div class="timeline-panel">
             <div class="timeline-heading">
               <h4 class="timeline-title">BTS Informatique et Réseaux pour l'Industrie et les Services Techniques (IRIS)</h4>
@@ -26,7 +26,7 @@
           </div>
         </li>
         <li>
-          <div class="timeline-badge danger">Juin 2012</div>
+          <div class="timeline-badge">Juin 2012</div>
           <div class="timeline-panel">
             <div class="timeline-heading">
               <h4 class="timeline-title">BAC Sciences et Technologies de l'Industrie</h4>

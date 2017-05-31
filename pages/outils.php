@@ -23,7 +23,7 @@
 			<figure>
 				<img src="../images/Git-Logo.png" class="img-rounded" style="width:200px; height:150px;"/>
 				<figcaption>
-					Outil de gestion du versionning
+					Git : Outil de gestion du versionning
 				</figcaption>
 			</figure>
 		</div>
@@ -42,7 +42,7 @@
 			<figure>
 				<img src="../images/PSlogo.png" class="img-rounded" style="width:190px; height:150px;"/>
 				<figcaption>
-					Traitement d'image : Photoshop
+					Photoshop : traitement d'image
 				</figcaption>
 			</figure>
 		</div>
