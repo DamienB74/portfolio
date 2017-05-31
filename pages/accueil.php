@@ -75,7 +75,8 @@
 			    		<div class="row">
 				    		<div class="navbar-header">
 						    	<div class="navbar-brand navbar-brand-footer">
-							    	<i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i> <!-- font awesome css -->
+							    	<a href="https://www.linkedin.com/in/damien-bauduin-245159106/"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a> 
+							    	<a href="https://github.com/DamienB74"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a> <!-- font awesome css -->
 								</div>
 							</div>
 							<div class="navbar-header" style="float:right;">
