@@ -55,7 +55,7 @@ $(document).ready(function(){
 
 /* Animation apparition des pages */
 $(document).ready(function(){
-       $("#contenu").fadeIn(1200);
+       $("#site-wrapper").fadeIn(1200);
 });
 
 

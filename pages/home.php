@@ -1,3 +1,6 @@
+<!-- Fichier PHP index du portfolio 
+Réalisé par Damien Bauduin -->
+
 <html lang="fr">
 
   <head>
@@ -24,56 +27,56 @@
     <title>Damien Bauduin - Développeur web</title>
 
   </head>
+  <body>
+      <div class="site-wrapper">
 
-    <div class="site-wrapper">
+        <div class="site-wrapper-inner">
 
-      <div class="site-wrapper-inner">
+          <div class="container">
 
-        <div class="container">
-
-          <div class="masthead clearfix">
-            <div class="container inner">
-              <h3 class="masthead-brand">Portfolio de Damien Bauduin</h3>
-              <nav>
-                <ul class="nav masthead-nav">
-                  <li class="active"><a href="home.php">Accueil</a></li>
-                  <li><a href="aboutme.php">A mon propos</a></li>
-                </ul>
-              </nav>
+            <div class="masthead clearfix">
+              <div class="container inner">
+                <h3 class="masthead-brand">Portfolio de Damien Bauduin</h3>
+                <nav>
+                  <ul class="nav masthead-nav">
+                    <li class="active"><a href="home.php"><span class="glyphicon glyphicon-home"></span> Accueil</a></li>
+                    <li><a href="aboutme.php"><span class="glyphicon glyphicon-book"></span> A mon propos</a></li>
+                  </ul>
+                </nav>
+              </div>
             </div>
-          </div>
 
-          <div class="inner cover">
-            <h1 class="cover-heading"><img src="../images/logoDB.gif" /></h1>
-            <p class="lead"><h3>Développeur web full-stack</h3>  <h4>Passionné des nouvelles technologies, et tout particulièrement par le domaine du web.</h4></p>
-            <p class="lead">
-              <a href="aboutme.php" class="btn btn-lg btn-default">Me découvrir</a>
-            </p>
+            <div class="inner cover">
+              <h1 class="cover-heading"><img src="../images/logoDB.gif" /></h1>
+              <p class="lead"><h3>Développeur web full-stack</h3>  <h4>Passionné des nouvelles technologies, et tout particulièrement par le domaine du web.</h4></p>
+              <p class="lead">
+                <a href="aboutme.php" class="btn btn-lg btn-default">Me découvrir</a>
+              </p>
+            </div>
+
           </div>
 
         </div>
 
       </div>
-
-    </div>
-    
-    <!-- footer -->
-    <div class="footer navbar-inverse ">
-        <div class="container">
-            <div class="row">
-                <div class="navbar-header">
-                  <div class="navbar-brand navbar-brand-footer">
-                    <a href="https://www.linkedin.com/in/damien-bauduin-245159106/"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a> 
-                    <a href="https://github.com/DamienB74"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a> <!-- font awesome css -->
-                  </div>
-                </div>
-                <div class="navbar-header" style="float:right;">
-                    <div class="navbar-brand navbar-brand-footer" style="color:#fff;">
-                        Damien Bauduin - 2017
+      
+      <!-- footer -->
+      <div class="footer navbar-inverse">
+          <div class="container">
+              <div class="row">
+                  <div class="navbar-header">
+                    <div class="navbar-brand navbar-brand-footer">
+                      <a href="https://www.linkedin.com/in/damien-bauduin-245159106/"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a> 
+                      <a href="https://github.com/DamienB74"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a> <!-- font awesome css -->
                     </div>
-                </div>
-            </div>
+                  </div>
+                  <div class="navbar-header" style="float:right;">
+                      <div class="navbar-brand navbar-brand-footer" style="color:#fff;">
+                          Damien Bauduin - 2017
+                      </div>
+                  </div>
+              </div>
+          </div>
         </div>
-      </div>
-
+  </body>
 </html>
