@@ -1,47 +1,47 @@
-/* Fichier CSS global du portfolio */
+/* Fichier CSS global du portfolio
 
-/* Loader */
+Loader
 .progress-bar {
-	background-color: #000;
+    background-color: #000;
 }
 .text_loader {
-	color: #FFF;
-	font-family: "Lucida Console";
-	/*font-weight: bold;*/
+    color: #FFF;
+    font-family: "Lucida Console";
+    font-weight: bold;
 }
 .logo_loader{
-	margin-left: 50%;
-	transform: translateX(-50%);
+    margin-left: 50%;
+    transform: translateX(-50%);
 }
 
 
-/* background */
+background
 .container_sans_menu{
-	/*background-color: #fff;*/
+    background-color: #fff;
 }
 body {
-	background-color: #B0B0B0;
-	/*background-image: url("../images/fondGris.jpg");*/
-	background-repeat:no-repeat;
-	background-size: cover;
+    background-color: #B0B0B0;
+    background-image: url("../images/fondGris.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
 }
 
 
-/* menu desktop */
+menu desktop
 li > a:hover {
-	font-weight: bold;
+    font-weight: bold;
 }   
 
 
-/* Footer */
+Footer
 .footer{
-	height: 5vh;
+    height: 5vh;
 }
 .navbar-brand-footer {
-	color:#fff;
-	padding-top: 0px;
-	padding-left: 0px;
-	margin-top: 4%;
+    color:#fff;
+    padding-top: 0px;
+    padding-left: 0px;
+    margin-top: 4%;
 }
 .fa {
     color:#fff;
@@ -51,8 +51,8 @@ li > a:hover {
 }
 
 
-/* Général */
-h1{     /* pour les titres de la page "aboutme" */
+Général
+h1{     pour les titres de la page "aboutme"
     font-family: 'Bookman Old Style', serif;
 }
 h5 {
@@ -69,60 +69,62 @@ h5 {
     }
 }
 .contenu{
-	margin-top: 19vh;
+    margin-top: 19vh;
 }
 .contenuAbout{
-	margin-top: 11vh;
+    margin-top: 11vh;
 }
 .well {
-	border: 5px solid #FFF;
-	border-radius: 12px;
+    border: 5px solid #FFF;
+    border-radius: 12px;
 }
 .well_etudes {
-	padding: 10px 19px;
+    padding: 10px 19px;
 }
 .contenuParcours, .contenuCompetences, .contenuEtudes, .contenuOutils {
-	margin-top: -10px;
+    margin-top: -10px;
 }
 
 
-/* navbar */
+navbar
 .navbar-inverse {
-	background-color: #484848;
-	border: none;
+    background-color: #484848;
+    border: none;
 }
-.navbar-inverse .navbar-nav > .active > a { /* case lien menu */
-	background-color: #313131; 
+.navbar-inverse .navbar-nav > .active > a { case lien menu
+    background-color: #313131; 
 }
 .navbar-inverse .navbar-nav > .active > a:hover {
-	background-color: #313131; 
+    background-color: #313131; 
 }
-.navbar-inverse .navbar-nav > li > a { /* texte lien */
-	color: #fff;
+.navbar-inverse .navbar-nav > li > a { texte lien
+    color: #fff;
 }
 .navbar-inverse .navbar-nav > li {
-	background-color: #484848;
+    background-color: #484848;
 }
 .btn-lg {
-	border-radius: 0px;
+    border-radius: 0px;
 }
 .btn-info {
-	border: none;
-	background-color: #484848;
+    border: none;
+    background-color: #484848;
 }               
-
+*/
 
 /* nav page aboutme */
 #nav {
-	margin-bottom: 4%;
+    margin-bottom: 4%;
 }
 .navkey {
-	text-align: center;
-	padding: 5px;
-	margin-bottom: 5px;
+    text-align: center;
+    padding: 5px;
+    margin-bottom: 5px;
+    color: rgba(255,255,255,.75);
 }
 .navkey:hover {
     border-bottom: 3px solid #FFF;
+    color: #FFF;
 }
 .navactive {
     color: #FFF;
@@ -130,12 +132,12 @@ h5 {
     font-weight: bold;
 }
 .navlink {
-	font-size: 17px;
+    font-size: 17px;
     color: #383838;
 }
 .navLink:hover {
-	font-weight: bold;
-	text-decoration: none;
+    font-weight: bold;
+    text-decoration: none;
     color: #FFF;
 }
 
@@ -329,10 +331,145 @@ h5 {
 /* figure page outils */
 figure {
   text-align: center;
-  font-style: italic;
-  font-size: smaller;
   text-indent: 0;
   border: thin silver solid;
   margin: 0.5em;
   padding: 0.5em;
+} 
+
+
+/* Template Cover */
+/* Links */
+a,
+a:focus,
+a:hover {
+  color: #fff;
+}
+
+/* Custom default button */
+.btn-default,
+.btn-default:hover,
+.btn-default:focus {
+  color: #333;
+  text-shadow: none; /* Prevent inheritence from `body` */
+  background-color: #fff;
+  border: 1px solid #fff;
+}
+
+
+/*
+ * Base structure
+ */
+html,
+body {
+  height: 100%;
+  background-color: #fff;
+}
+body {
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 5px 3px rgba(0,0,0,.5);
+}
+
+/* Extra markup and styles for table-esque vertical and horizontal centering */
+.site-wrapper {
+  display: table;
+  width: 100%;
+  height: 100%;
+  background-color: #333;
+  background-image: url("../images/fondDev3.jpg");
+  background-repeat:no-repeat;
+  background-size: cover;
+  filter: grayscale(1);
+  /*height: 100%; */
+  /*min-height: 100%;*/
+}
+.site-wrapper-inner {
+  display: table-cell;
+  vertical-align: top;
+}
+.cover-container {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* Padding for spacing */
+.inner {
+  padding: 30px;
+}
+
+
+/*
+ * Header
+ */
+.masthead-brand {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.masthead-nav > li {
+  display: inline-block;
+}
+.masthead-nav > li + li {
+  margin-left: 20px;
+}
+.masthead-nav > li > a {
+  padding-right: 0;
+  padding-left: 0;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff; /* IE8 proofing */
+  color: rgba(255,255,255,.75);
+  border-bottom: 2px solid transparent;
+}
+.masthead-nav > li > a:hover,
+.masthead-nav > li > a:focus {
+  background-color: transparent;
+  border-bottom-color: #a9a9a9;
+  border-bottom-color: rgba(255,255,255,.25);
+}
+.masthead-nav > .active > a,
+.masthead-nav > .active > a:hover,
+.masthead-nav > .active > a:focus {
+  color: #fff;
+  border-bottom-color: #fff;
+}
+
+@media (min-width: 768px) {
+  .masthead-brand {
+    float: left;
+  }
+  .masthead-nav {
+    float: right;
+  }
+}
+
+
+/*
+ * Cover
+ */
+
+.cover {
+  padding: 0 20px;
+}
+.cover .btn-lg {
+  padding: 10px 20px;
+  font-weight: bold;
+}
+
+/*
+ * Affix and center
+ */
+
+@media (min-width: 768px) {
+  /* Pull out the header and footer */
+  .masthead {
+    position: fixed;
+    top: 0;
+  }
+  /* Start the vertical centering */
+  .site-wrapper-inner {
+    vertical-align: middle;
+  }
+
 }

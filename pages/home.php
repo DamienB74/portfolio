@@ -36,45 +36,19 @@
               <h3 class="masthead-brand">Portfolio de Damien Bauduin</h3>
               <nav>
                 <ul class="nav masthead-nav">
-                  <li><a href="home.php"><span class="glyphicon glyphicon-home"></span> Accueil</a></li>
-                  <li class="active"><a href="aboutme.php"><span class="glyphicon glyphicon-book"></span> A mon propos</a></li>
+                  <li class="active"><a href="home.php">Accueil</a></li>
+                  <li><a href="aboutme.php">A mon propos</a></li>
                 </ul>
               </nav>
             </div>
           </div>
 
           <div class="inner cover">
-            <div class="row">
-                <nav id="nav">                
-                  <a href="#" class="navlink " data-target="parcours">
-                    <div class="navkey col-lg-3 col-md-3 col-sm-3 col-xs-12 navactive" id="navkeyparcours">
-                      Ma présentation
-                    </div>
-                  </a>
-                  
-                <a href="#" class="navlink " data-target="etudes">
-                  <div class="navkey col-lg-3 col-md-3 col-sm-3 col-xs-12" id="navkeyetudes">
-                      Mes études
-                    </div>  
-                </a>
-
-                <a href="#" class="navlink " data-target="competences">
-                    <div class="navkey col-lg-3 col-md-3 col-sm-3 col-xs-12" id="navkeycompetences">
-                      Mes compétences
-                    </div>
-                </a>
-
-                <a href="#" class="navlink " data-target="outils">
-                    <div class="navkey col-lg-3 col-md-3 col-sm-3 col-xs-12" id="navkeyoutils">
-                      Mes outils
-                    </div>  
-                  </a>                                    
-                </nav>
-            </div>
-
-            <div id="randomDiv"> <!-- well pour l'encadré -->
-              <?php include('parcours.php'); ?>
-            </div>
+            <h1 class="cover-heading"><img src="../images/logoDB.gif" /></h1>
+            <p class="lead"><h3>Développeur web full-stack</h3>  <h4>Passionné des nouvelles technologies, et tout particulièrement par le domaine du web.</h4></p>
+            <p class="lead">
+              <a href="aboutme.php" class="btn btn-lg btn-default">Me découvrir</a>
+            </p>
           </div>
 
         </div>
