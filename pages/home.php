@@ -39,6 +39,9 @@ Réalisé par Damien Bauduin -->
                 <h3 class="masthead-brand">Portfolio de Damien Bauduin</h3>
                 <nav>
                   <ul class="nav masthead-nav">
+<!--                     <li><a href="home"><span class="glyphicon glyphicon-home"></span> Accueil</a></li>
+<li class="active"><a href="a-mon-propos"><span class="glyphicon glyphicon-book"></span> A mon propos</a></li> -->
+                    <!-- local -->
                     <li class="active"><a href="home.php"><span class="glyphicon glyphicon-home"></span> Accueil</a></li>
                     <li><a href="aboutme.php"><span class="glyphicon glyphicon-book"></span> A mon propos</a></li>
                   </ul>
@@ -50,7 +53,8 @@ Réalisé par Damien Bauduin -->
               <h1 class="cover-heading"><img src="../images/logoDB.gif" /></h1>
               <p class="lead"><h3>Développeur web full-stack</h3>  <h4>Passionné des nouvelles technologies, et tout particulièrement par le domaine du web.</h4></p>
               <p class="lead">
-                <a href="aboutme.php" class="btn btn-lg btn-default">Me découvrir</a>
+                <!-- <a href="a-mon-propos" class="btn btn-lg btn-default">Me découvrir</a> -->
+                <a href="aboutme.php" class="btn btn-lg btn-default">Me découvrir</a> <!-- local -->
               </p>
             </div>
 

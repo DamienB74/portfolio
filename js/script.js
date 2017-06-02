@@ -11,7 +11,7 @@ $(document).ready(function(){
 	    target = $this.data('target');       
 	  
 	  // Load target page into container
-	  container.load(target + '.php');
+	  container.load('pages/' + target + '.php');
 
 	  //pour postionner le menu nav 
 /*	  if(target == "parcours"){

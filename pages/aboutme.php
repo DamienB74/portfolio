@@ -39,6 +39,9 @@ Réalisé par Damien Bauduin -->
                 <h3 class="masthead-brand">Portfolio de Damien Bauduin</h3>
                 <nav>
                   <ul class="nav masthead-nav">
+<!--                     <li><a href="home"><span class="glyphicon glyphicon-home"></span> Accueil</a></li>
+<li class="active"><a href="a-mon-propos"><span class="glyphicon glyphicon-book"></span> A mon propos</a></li> -->
+                    <!-- local -->
                     <li><a href="home.php"><span class="glyphicon glyphicon-home"></span> Accueil</a></li>
                     <li class="active"><a href="aboutme.php"><span class="glyphicon glyphicon-book"></span> A mon propos</a></li>
                   </ul>
