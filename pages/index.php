@@ -18,6 +18,7 @@ Réalisé par Damien Bauduin -->
 
 	  <!-- CSS -->
 	  <link rel="stylesheet" href="../css/style.css">
+	  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Pacifico" />
 
 	  <title>Damien Bauduin - Développeur web</title>
 
@@ -34,9 +35,6 @@ Réalisé par Damien Bauduin -->
               <h1 class="cover-heading"><div class="loader"></div></h1>
               <p class="lead"><h3 class="text_loader">Chargement des données... veuillez patienter.</h3></p>
               <p class="lead">
-		     <!--    <div class="progress progress-striped active page-progress-bar">
-		         <div class="progress-bar" style="width: 100%;"></div>
-		     </div> -->
 		        
               </p>
             </div>

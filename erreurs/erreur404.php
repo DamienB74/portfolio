@@ -1,4 +1,4 @@
-<!-- Fichier PHP index du portfolio 
+<!-- Fichier PHP erreur404 du portfolio 
 Réalisé par Damien Bauduin -->
 
 <html lang="fr">
@@ -20,7 +20,6 @@ Réalisé par Damien Bauduin -->
     <!-- CSS -->
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/font-awesome-4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Pacifico" />
     
     <!-- Script -->
     <script src="../js/script.js"></script>
@@ -39,7 +38,7 @@ Réalisé par Damien Bauduin -->
                 <h3 class="masthead-brand">Portfolio de Damien Bauduin</h3>
                 <nav>
                   <ul class="nav masthead-nav">
-                    <li class="active"><a href="home.php"><span class="glyphicon glyphicon-home"></span> Accueil</a></li>
+                    <li><a href="home.php"><span class="glyphicon glyphicon-home"></span> Accueil</a></li>
                     <li><a href="aboutme.php"><span class="glyphicon glyphicon-book"></span> A mon propos</a></li>
                   </ul>
                 </nav>
@@ -48,9 +47,9 @@ Réalisé par Damien Bauduin -->
 
             <div class="inner cover">
               <h1 class="cover-heading"><img src="../images/logoDB.gif" /></h1>
-              <p class="lead"><h3>Développeur web full-stack</h3>  <h4>Passionné des nouvelles technologies, et tout particulièrement par le domaine du web.</h4></p>
+              <p class="lead"><h3>Erreur 404 !</h3>  <h4>Page non trouvée</h4></p>
               <p class="lead">
-                <a href="aboutme.php" class="btn btn-lg btn-default">Me découvrir</a>
+                <a href="aboutme.php" class="btn btn-lg btn-default"><span class="glyphicon glyphicon-home"></span> Accueil</a>
               </p>
             </div>
 

@@ -4,7 +4,7 @@ Réalisé par Damien Bauduin -->
 <html lang="fr">
 
   <head>
-
+    <!-- meta -->
     <meta charset="utf-8">
     <meta name="viewport" content="initial-scale=1"> <!-- responsive -->
     
@@ -20,6 +20,7 @@ Réalisé par Damien Bauduin -->
     <!-- CSS -->
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Pacifico" />
     
     <!-- Script -->
     <script src="../js/script.js"></script>
@@ -45,9 +46,8 @@ Réalisé par Damien Bauduin -->
               </div>
             </div>
 
-            <div class="inner cover">
               <div class="row">
-                  <nav id="nav">                
+                  <nav id="nav"> <!-- class nav_parcours par defaut -->               
                     <a href="#" class="navlink " data-target="parcours">
                       <div class="navkey col-lg-3 col-md-3 col-sm-3 col-xs-12 navactive" id="navkeyparcours">
                         Ma présentation
@@ -73,6 +73,8 @@ Réalisé par Damien Bauduin -->
                     </a>                                    
                   </nav>
               </div>
+
+            <div class="inner cover">
 
               <div id="randomDiv"> <!-- well pour l'encadré -->
                 <?php include('parcours.php'); ?>

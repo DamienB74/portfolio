@@ -1,0 +1,4 @@
+ErrorDocument 404 /erreur404.php
+
+
+DirectoryIndex pages/index.php /erreurs/erreur404.php

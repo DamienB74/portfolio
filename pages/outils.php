@@ -23,7 +23,7 @@
 			<figure>
 				<img src="../images/Git-Logo.png" class="img-rounded" style="width:200px; height:150px;"/>
 				<figcaption>
-					<b>Git :</b> Outil de gestion du versionning
+					<b>Git :</b> Outil de gestion du versionning (mon compte <a href="https://github.com/DamienB74" class="linkGit">GitHub <span class="glyphicon glyphicon-new-window"></span></a>)
 				</figcaption>
 			</figure>
 		</div>
@@ -34,7 +34,7 @@
 			<figure>
 				<img src="../images/SourceTreeIcon.png" class="img-rounded" style="width:150px; height:150px;"/>
 				<figcaption>
-					<b>Source Tree :</b> client Git
+					<b>Source Tree :</b> client Git 
 				</figcaption>
 			</figure>
 		</div>

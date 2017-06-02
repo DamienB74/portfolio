@@ -39,13 +39,13 @@
 	</div>
 </div>
 
-<script> //script pour les graphiques
+<script> //script pour les graphiques des competences
 $(function () {
 		    $('.min-chart#chart-php').easyPieChart({
-		        barColor: "#000",
-		        trackColor: "#AEAEAE",
-		        lineWidth: 10,
-		        animate: 1200,
+		        barColor: "#6F6F6F", /* dark grey */
+		        trackColor: "#FFF",
+		        lineWidth: 5.5,
+		        animate: 1100,
 		        scaleColor: false,
 		        lineCap: "square", //forme du bout de la bar
 		        onStep: function (from, to, percent) {

@@ -13,14 +13,35 @@ $(document).ready(function(){
 	  // Load target page into container
 	  container.load(target + '.php');
 
-	  //pour charger la taille de la div "well" de etudes
-  	  if(target == "etudes"){
-	  	document.getElementById("randomDiv").classList.add('well_etudes');
+	  //pour postionner le menu nav 
+/*	  if(target == "parcours"){
+	  	document.getElementById("nav").classList.add('nav_parcours');
 	  }
 	  else {
-	  	document.getElementById("randomDiv").classList.remove('well_etudes');
+	  	document.getElementById("nav").classList.remove('nav_parcours');
+	  }*/
+/*  	  if(target == "etudes"){
+	  	document.getElementById("randomDiv").classList.add('well_etudes'); //charger la taille de la div "well" de etudes
+	  	document.getElementById("nav").classList.add('nav_etudes');
 	  }
-	  
+	  else {
+	  	document.getElementById("randomDiv").classList.remove('well_etudes');*/
+	  	/*document.getElementById("nav").classList.remove('nav_etudes');
+	  }*/
+/*	  if(target == "competences"){
+	  	document.getElementById("nav").classList.add('nav_competences');
+	  }
+	  else {
+	  	document.getElementById("nav").classList.remove('nav_competences');
+	  }
+	  if(target == "outils"){
+	  	document.getElementById("nav").classList.add('nav_outils');
+	  }
+	  else {
+	  	document.getElementById("nav").classList.remove('nav_outils');
+	  }*/
+
+
 	  //pour montrer quel est le menu actif
   	  if(target == "parcours"){
 	  	document.getElementById("navkeyparcours").classList.add('navactive');
@@ -57,5 +78,3 @@ $(document).ready(function(){
 $(document).ready(function(){
        $("#site-wrapper").fadeIn(1200);
 });
-
-
