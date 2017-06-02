@@ -39,11 +39,11 @@ Réalisé par Damien Bauduin -->
                 <h3 class="masthead-brand">Portfolio de Damien Bauduin</h3>
                 <nav>
                   <ul class="nav masthead-nav">
-<!--                     <li><a href="home"><span class="glyphicon glyphicon-home"></span> Accueil</a></li>
-<li class="active"><a href="a-mon-propos"><span class="glyphicon glyphicon-book"></span> A mon propos</a></li> -->
+                     <li class="active"><a href="home"><span class="glyphicon glyphicon-home"></span> Accueil</a></li>
+                      <li><a href="a-mon-propos"><span class="glyphicon glyphicon-book"></span> A mon propos</a></li>
                     <!-- local -->
-                    <li class="active"><a href="home.php"><span class="glyphicon glyphicon-home"></span> Accueil</a></li>
-                    <li><a href="aboutme.php"><span class="glyphicon glyphicon-book"></span> A mon propos</a></li>
+<!--                     <li class="active"><a href="home.php"><span class="glyphicon glyphicon-home"></span> Accueil</a></li>
+<li><a href="aboutme.php"><span class="glyphicon glyphicon-book"></span> A mon propos</a></li> -->
                   </ul>
                 </nav>
               </div>
@@ -53,8 +53,8 @@ Réalisé par Damien Bauduin -->
               <h1 class="cover-heading"><img src="../images/logoDB.gif" /></h1>
               <p class="lead"><h3>Développeur web full-stack</h3>  <h4>Passionné des nouvelles technologies, et tout particulièrement par le domaine du web.</h4></p>
               <p class="lead">
-                <!-- <a href="a-mon-propos" class="btn btn-lg btn-default">Me découvrir</a> -->
-                <a href="aboutme.php" class="btn btn-lg btn-default">Me découvrir</a> <!-- local -->
+                 <a href="a-mon-propos" class="btn btn-lg btn-default">Me découvrir</a> 
+                <!-- <a href="aboutme.php" class="btn btn-lg btn-default">Me découvrir</a> --> <!-- local -->
               </p>
             </div>
 
@@ -68,14 +68,14 @@ Réalisé par Damien Bauduin -->
       <div class="footer navbar-inverse">
           <div class="container">
               <div class="row">
-                  <div class="navbar-header">
+                  <div class="navbar-header" style="float:left; margin-left: 1%;">
                     <div class="navbar-brand navbar-brand-footer">
                       <a href="https://www.linkedin.com/in/damien-bauduin-245159106/"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a> 
                       <a href="https://github.com/DamienB74"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a> <!-- font awesome css -->
                     </div>
                   </div>
                   <div class="navbar-header" style="float:right;">
-                      <div class="navbar-brand navbar-brand-footer" style="color:#fff;">
+                      <div class="navbar-brand navbar-brand-footer" style="color:#fff; padding-top: 4px; padding-right:9px;">
                           Damien Bauduin - 2017
                       </div>
                   </div>

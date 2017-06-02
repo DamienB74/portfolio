@@ -6,8 +6,8 @@ Réalisé par Damien Bauduin -->
 	<head>
 
 	  <meta charset="utf-8">
-	  <!-- <meta http-equiv="refresh" content="2; URL=home"> -->
-	  <meta http-equiv="refresh" content="2; URL=home.php"> <!-- local -->
+	  <meta http-equiv="refresh" content="2; URL=home">
+	  <!-- <meta http-equiv="refresh" content="2; URL=home.php"> --> <!-- local -->
 	  <meta name="viewport" content="initial-scale=1"> <!-- responsive -->
 
 	  <!-- JQuery -->
