@@ -8,6 +8,9 @@ Réalisé par Damien Bauduin -->
     <meta charset="utf-8">
     <meta name="viewport" content="initial-scale=1"> <!-- responsive -->
     
+    <link rel="icon" type="image/x-icon" href="../images/favicon.ico" />
+    <!--[if IE]><link rel="shortcut icon" type="image/x-icon" href="../images/favicon.ico" /><![endif]-->
+
     <!-- JQuery -->
     <script src="../js/jquery-3.2.1.min.js"></script>
     <script src="../js/jquery.easypiechart.js"></script>
@@ -40,7 +43,8 @@ Réalisé par Damien Bauduin -->
                 <nav>
                   <ul class="nav masthead-nav">
                      <li><a href="home"><span class="glyphicon glyphicon-home"></span> Accueil</a></li>
-                      <li class="active"><a href="a-mon-propos"><span class="glyphicon glyphicon-book"></span> A mon propos</a></li>
+                     <li class="active"><a href="a-mon-propos"><span class="glyphicon glyphicon-book"></span> A mon propos</a></li>
+                     <li><a href="contact"><span class="glyphicon glyphicon-user"></span> Contact</a></li>
                     <!-- local -->
 <!--                     <li ><a href="home.php"><span class="glyphicon glyphicon-home"></span> Accueil</a></li>
 <li class="active"><a href="aboutme.php"><span class="glyphicon glyphicon-book"></span> A mon propos</a></li> -->

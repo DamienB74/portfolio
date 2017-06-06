@@ -10,6 +10,9 @@ Réalisé par Damien Bauduin -->
 	  <!-- <meta http-equiv="refresh" content="2; URL=home.php"> --> <!-- local -->
 	  <meta name="viewport" content="initial-scale=1"> <!-- responsive -->
 
+	  <link rel="icon" type="image/x-icon" href="../images/favicon.ico" />
+	  <!--[if IE]><link rel="shortcut icon" type="image/x-icon" href="../images/favicon.ico" /><![endif]-->
+
 	  <!-- JQuery -->
 	  <script src="../js/jquery-3.2.1.min.js"></script>
 
