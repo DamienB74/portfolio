@@ -11,9 +11,9 @@
 
 					<div class="skill-item">PHP</div>
 
-					<div class="skill-item">HTML</div>
+					<div class="skill-item">HTML / CSS</div>
 
-					<div class="skill-item">CSS</div>
+					<div class="skill-item">Javascript</div>
 
 					<div class="skill-item">C#</div>
 

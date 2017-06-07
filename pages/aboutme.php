@@ -30,8 +30,10 @@ Réalisé par Damien Bauduin -->
 
     <title>Damien Bauduin - Développeur web</title>
 
+    <?php include_once("analytics.php") ?> <!-- Google Analytics -->
   </head>
   <body>
+      
       <div class="site-wrapper">
         <div class="site-wrapper-inner">
 
@@ -53,33 +55,33 @@ Réalisé par Damien Bauduin -->
               </div>
             </div>
 
-              <div class="row">
-                  <nav id="nav"> <!-- class nav_parcours par defaut -->              
-                      <a href="#" class="navlink " data-target="parcours">
-                        <div class="navkey col-lg-3 col-md-3 col-sm-3 col-xs-12 navactive" id="navkeyparcours">
-                          Ma présentation
+            <div class="row">
+                <nav id="nav"> <!-- class nav_parcours par defaut -->              
+                    <a href="#" class="navlink " data-target="parcours">
+                      <div class="navkey col-lg-3 col-md-3 col-sm-3 col-xs-12 navactive" id="navkeyparcours">
+                        Ma présentation
+                      </div>
+                    </a>
+                    
+                    <a href="#" class="navlink " data-target="etudes">
+                      <div class="navkey col-lg-3 col-md-3 col-sm-3 col-xs-12" id="navkeyetudes">
+                          Mes études
+                        </div>  
+                    </a>
+
+                    <a href="#" class="navlink " data-target="competences">
+                        <div class="navkey col-lg-3 col-md-3 col-sm-3 col-xs-12" id="navkeycompetences">
+                          Mes compétences
                         </div>
-                      </a>
-                      
-                      <a href="#" class="navlink " data-target="etudes">
-                        <div class="navkey col-lg-3 col-md-3 col-sm-3 col-xs-12" id="navkeyetudes">
-                            Mes études
-                          </div>  
-                      </a>
+                    </a>
 
-                      <a href="#" class="navlink " data-target="competences">
-                          <div class="navkey col-lg-3 col-md-3 col-sm-3 col-xs-12" id="navkeycompetences">
-                            Mes compétences
-                          </div>
-                      </a>
-
-                      <a href="#" class="navlink " data-target="outils">
-                          <div class="navkey col-lg-3 col-md-3 col-sm-3 col-xs-12" id="navkeyoutils">
-                            Mes outils
-                          </div>  
-                      </a>                                    
-                  </nav>
-              </div>
+                    <a href="#" class="navlink " data-target="outils">
+                        <div class="navkey col-lg-3 col-md-3 col-sm-3 col-xs-12" id="navkeyoutils">
+                          Mes outils
+                        </div>  
+                    </a>                                    
+                </nav>
+            </div>
 
             <div class="inner cover">
 

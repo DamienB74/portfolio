@@ -29,9 +29,11 @@ Réalisé par Damien Bauduin -->
     <script src="../js/script.js"></script>
 
     <title>Damien Bauduin - Développeur web</title>
+    <?php include_once("analytics.php") ?> <!-- Google Analytics -->
 
   </head>
   <body>
+     
       <div class="site-wrapper">
         <div class="site-wrapper-inner">
 
