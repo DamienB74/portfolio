@@ -11,8 +11,8 @@ $(document).ready(function(){
 	    target = $this.data('target');       
 	  
 	  // Load target page into container
-	  container.load('pages/' + target + '.php');
-	  //container.load(target + '.php'); //local
+	  //container.load('pages/' + target + '.php');
+	  container.load(target + '.php'); //local
 
 
 	  //pour montrer quel est le menu actif

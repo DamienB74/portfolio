@@ -59,8 +59,8 @@ Réalisé par Damien Bauduin -->
               <h1 class="cover-heading"><img src="../images/logoDB.gif" /></h1>
               <p class="lead">
                   <h2>Pour me contacter</h2> 
-                  <h4>Compte LinkedIn : <i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></h3> 
-                  <h4>Compte GitHub : <i class="fa fa-github fa-2x" aria-hidden="true"></i></h3> 
+                  <h4>Compte LinkedIn : <a href="https://www.linkedin.com/in/damien-bauduin-245159106/"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a></h3> 
+                  <h4>Compte GitHub : <a href="https://github.com/DamienB74"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a></h3> 
               </p>
             </div>
 

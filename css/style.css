@@ -77,6 +77,9 @@ navbar
 
 
 /* Général */
+.container {
+  font-family: 'Trebuchet MS', sans-serif;
+}
 .linkGit {
     text-decoration: underline;
 }
